@@ -21,7 +21,7 @@ def send_message(query):
   return response
 
 
-genai.configure(api_key="AIzaSyAPkzLPXlAYpFPxRogzufnM03Qukt9KiiA")
+genai.configure(api_key="[APIKEY]")#
 
 # Create the model
 generation_config = {
